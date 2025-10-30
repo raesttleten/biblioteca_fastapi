@@ -1,4 +1,5 @@
 -----------Sistema de Gestión de Biblioteca------------
+
 Descripción del proyecto:
 El Sistema de Gestión de Biblioteca es una API desarrollada con FastAPI que permite administrar de forma eficiente los recursos de una biblioteca.
 El sistema incluye operaciones CRUD (crear, leer, actualizar y eliminar) para gestionar información relacionada con libros, autores y usuarios.
@@ -39,3 +40,4 @@ Documentación ReDoc: http://127.0.0.1:8000/redoc
 Sharick Hernández
 Código: 67000979
 Repository: https://github.com/raesttleten/biblioteca_fastapi.git
+
