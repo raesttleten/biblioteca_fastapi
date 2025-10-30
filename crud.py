@@ -19,3 +19,14 @@ def crear_libro(session: Session, libro: Libro, autores_ids: list[int]):
     session.commit()
     session.refresh(libro)
     return libro
+
+def eliminar_autor(session: Session, autor_id: int):
+    autor = session.get(Autor, autor_id)
+    if not autor:
+        raise HTTPException(status_code=404, detail="Autor no encontrado")
+    # Regla 3: cascada
+    libros = session.exec(select(Libro).join(LibroAutorLink).where(LibroAutorLink.autor_id == autor_id)).all()
+    for libro in libros:
+        session.delete(libro)
+    session.delete(autor)
+    session.commit()
