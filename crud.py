@@ -7,3 +7,15 @@ def crear_autor(session: Session, autor: Autor):
     session.commit()
     session.refresh(autor)
     return autor
+
+def crear_libro(session: Session, libro: Libro, autores_ids: list[int]):
+    # Regla 1: ISBN único
+    if session.exec(select(Libro).where(Libro.isbn == libro.isbn)).first():
+        raise HTTPException(status_code=409, detail="ISBN duplicado")
+    session.add(libro)
+    session.commit()
+    for id_autor in autores_ids:
+        session.add(LibroAutorLink(autor_id=id_autor, libro_id=libro.id))
+    session.commit()
+    session.refresh(libro)
+    return libro
