@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e86c2f7b-9bfc-4c5d-a45c-0dd101786365" name="Changes" comment="" />
+    <list default="true" id="f4ee2c55-0f8f-4200-af76-29d06fb34223" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/biblioteca_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/biblioteca_api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +18,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "raesttleten"
+  }
 }]]></component>
-  <component name="ProjectId" id="34nP2RDozTELJ43XV2HCkeJRu1P" />
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/raesttleten/biblioteca_api.git",
+    "accountId": "c28b62a8-e6c0-4359-9150-21db21839b34"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="34nTAuRzGZOBAT7JhI2u0I7q9HA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,6 +42,12 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -36,12 +62,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e86c2f7b-9bfc-4c5d-a45c-0dd101786365" name="Changes" comment="" />
-      <created>1761846157503</created>
+      <changelist id="f4ee2c55-0f8f-4200-af76-29d06fb34223" name="Changes" comment="" />
+      <created>1761848199312</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1761846157503</updated>
-      <workItem from="1761846160399" duration="2000" />
+      <updated>1761848199312</updated>
+      <workItem from="1761848200417" duration="1038000" />
     </task>
     <servers />
   </component>
